@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap');
+
+:root {
+  --cor0: #3F3D56;
+  --cor01: #EE24FF;
+  --cor02: #828282;
+  --cor03: #ECEFF2;
+
+  --fonte0: 'Dosis', sans-serif;
+  --fonte01: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+.page {
+  width: 630px;
+  margin: auto;
+  padding-top: 65px;
+  padding-bottom: 0;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+.content {
+  padding: 0;
+  margin: 0;
+}
+
+.content h1 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+
+  font-family: var(--fonte0);
+  font-size: 2em;
+  text-align: center;
+  color: var(--cor0);
+}
+
+.content h1 span {
+  font-weight: bold;
+  color: var(--cor01);
+}
+
+.content p {
+  font-family: var(--fonte01);
+  font-size: 15px;
+  line-height: 1.5em;
+  text-align: center;
+  color: var(--cor02);
+
+  margin: 20px auto;
+  width: 540px;
+  padding: 0;
+}
+
+.content p span {
+  font-weight: bold;
+  color: var(--cor0);
+  text-align: center;
+}
+
+footer {
+  width: 390px;
+  border-top: 2px solid #8282821c;
+  margin: 65px auto 30px;
+  text-align: center;
+}
+
+footer nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--fonte01);
+  color: var(--cor0);
+  
+  margin-left: 40px;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+  color: var(--cor02);
+}
+
+.wave {
+  width: 100%;
+  margin: 0;
+}
+
